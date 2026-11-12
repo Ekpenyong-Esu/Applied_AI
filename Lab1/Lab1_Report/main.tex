@@ -1,0 +1,51 @@
+\documentclass[times, 10pt]{thesisMDH}
+\usepackage[useregional]{datetime2}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{amsmath, amssymb}
+\usepackage[pdfborder={0 0 0},colorlinks=true,urlcolor=blue,citecolor=red,bookmarks=false]{hyperref}
+
+\definecolor{primaryblue}{RGB}{30, 80, 162}
+
+\titleformat{\section}{\large\bfseries\color{primaryblue}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color{primaryblue}}{}{0em}{}
+
+% figures saved by Lab1_Solution.ipynb end up in ../figures
+\graphicspath{{images/}{../figures/}}
+
+\addbibresource{references.bib}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\fancyHeader{Lab 1 -- Fundamentals of Machine Learning}{Ekpenyong Esu Ekpenyong}
+
+\university{Luleå University of Technology}
+\department{Department of Computer Science, Electrical and Space Engineering\\
+Luleå, Sweden}
+
+\subject{\textbf{Lab Report}\\ Applied Artificial Intelligence D7041E}
+\thesisTitle{Lab 1: Fundamentals of Machine Learning and Systematic Experimentation}
+
+\authorOne{Ekpenyong Esu Ekpenyong}{ekpekp-5@student.ltu.se}
+
+\examiner{Marcus Liwicki}{LTU, Luleå}
+
+\theDate{\today}
+
+\begin{document}
+\titlePage
+
+\mainmatter
+
+\input{sections/Introduction}
+\input{sections/Part1_Warmup}
+\input{sections/Part2_NearestNeighbour}
+\input{sections/Part3_SVM}
+\input{sections/Part4_UCI}
+
+\printbibliography
+
+\end{document}

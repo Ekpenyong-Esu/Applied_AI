@@ -1,0 +1,13 @@
+# Lab 1 - D7041E. Install with:  pip install -r requirements.txt
+# NOTE: the pandas that was installed on this machine (1.5.3) is too old for numpy 2.x and
+# makes `import sklearn` crash. `pip install -U pandas` (or this file) fixes it.
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.8
+pillow>=10
+jupyter
+ipykernel
+# MNIST source: keras is what the lecturer's notebook uses; if it is missing the loader falls
+# back to torchvision (already installed here) and then to OpenML. Install one of them:
+# keras + tensorflow     or     torch torchvision

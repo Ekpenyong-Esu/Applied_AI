@@ -1,0 +1,308 @@
+Kernel Comparisons
+
+Correct answer:
+
+B. Linear kernel is computationally cheap
+
+Correct answer:
+
+A. RBF kernel can approximate any smooth boundary
+
+Correct answer:
+
+D. Kernel choice affects accuracy and training time
+
+Correct answer:
+
+C. Polynomial degree controls nonlinearity
+
+This question has been re-graded.
+Results for question 2. This question has been re-graded.
+2
+Previous score 2.667 / 4 pointsRegrade score 4 / 4 points
+Multiple answer
+SVM Multiclass Strategies
+
+Correct answer:
+
+D. Each classifier outputs a score/confidence
+
+Correct answer:
+
+C. Results not identical for both methods
+
+Correct answer:
+
+B. One-vs-Rest trains one classifier per class
+
+Correct answer:
+
+A. One-vs-One trains n(n−1)/2 classifiers
+
+Results for question 3.
+3
+4 / 4 points
+Multiple answer
+Choice of Distance in k-NN. Which statements are correct?
+
+Correct answer:
+
+B. Higher order norms (L2 - Lp) emphasize larger deviations
+
+Correct answer:
+
+A. L1 norm is more robust to outliers
+
+Correct answer:
+
+C. Cosine distance ignores vector magnitude
+
+Correct answer:
+
+D. Mahalanobis distance uses feature correlations
+
+Results for question 4.
+4
+4 / 4 points
+Multiple answer
+Distances for x = [1, 2, 3], y = [4, 6, 3]. Compute distances between x and y.
+
+Correct answer:
+
+B. L2 distance = √25 = 5
+
+Correct answer:
+
+A. L1 distance = 7
+
+
+Answer,
+C. L2 distance = √14 
+
+
+Answer,
+D. Cosine similarity ≈ 0.94
+
+Results for question 5.
+5
+1.5 / 3 points
+Multiple answer
+Normalization of Test Data Separately Leads To. If test data are normalized independently from training data, then:
+
+Incorrect answer:
+
+B. Accuracy can be artificially inflated
+
+Missed option - incorrect
+
+Answer,
+D. No impact on results
+
+
+Answer,
+C. Data leakage from test to train is introduced
+
+Correct answer:
+
+A. Inconsistent feature scaling may occur
+
+Results for question 6.
+6
+4 / 4 points
+Multiple answer
+Cross-Validation Objectives
+
+
+Answer,
+D. Optimize learning rate
+
+Correct answer:
+
+B. Tune hyperparameters without using test set
+
+Correct answer:
+
+C. Avoid using test data for model selection
+
+Correct answer:
+
+A. Estimate generalization performance
+
+Results for question 7.
+7
+2.667 / 4 points
+Multiple answer
+Kernel Trick Enables SVM To
+
+Correct answer:
+
+B. Represent non-linear decision boundaries
+
+Incorrect answer:
+
+D. Does not always reduce dimensionality
+
+Selected Answer - Incorrect
+Correct answer:
+
+C. Avoid explicit feature construction
+
+Correct answer:
+
+A. Compute dot products in high-dimensional space efficiently
+
+This question has been re-graded.
+Results for question 8. This question has been re-graded.
+8
+Previous score 2 / 3 pointsRegrade score 3 / 3 points
+Multiple answer
+SVM Decision Margin
+
+Correct answer:
+
+C. Kernels enable non-linear boundaries
+
+Correct answer:
+
+D. Sensitive to feature scaling
+
+Correct answer:
+
+A. Maximizes margin between classes
+
+Correct answer:
+
+B. Not limited to linear separability
+
+Results for question 9.
+9
+4 / 4 points
+Multiple answer
+10-Fold vs 3-Fold Cross-Validation
+
+Correct answer:
+
+C. Uses more data for training per fold
+
+Correct answer:
+
+B. Increases computational cost
+
+Correct answer:
+
+A. 10-fold gives lower variance estimates
+
+
+Answer,
+D. It does not overfit by design
+
+Results for question 10.
+10
+3 / 3 points
+Multiple answer
+Supervised vs Unsupervised Learning. Which of the following statements are true?
+
+
+Answer,
+C. Both can perform classification tasks
+
+
+Answer,
+D. Unsupervised learning optimizes label prediction
+
+Correct answer:
+
+B. Unsupervised learning groups data without labels
+
+Correct answer:
+
+A. Supervised learning requires labeled data
+
+Results for question 11.
+11
+4 / 4 points
+Multiple answer
+Scaling Techniques for Distance-Based Algorithms. Which scaling methods are appropriate for k-NN or SVM?
+
+
+Answer,
+D. Rank normalization
+
+Correct answer:
+
+A. Z-score (standard) normalization
+
+
+Answer,
+C. Logarithmic normalization
+
+Correct answer:
+
+B. Min-Max normalization
+
+Results for question 12.
+12
+3 / 3 points
+Multiple answer
+Overfitting in High Dimensions. Overfitting is likely to occur when:
+
+Correct answer:
+
+B. Excessive model complexity
+
+Correct answer:
+
+A. Too few training samples relative to feature count
+
+
+Answer,
+C. Overly aggressive normalization
+
+
+Answer,
+D. Lack of noise in the training data
+
+This question has been re-graded.
+Results for question 13. This question has been re-graded.
+13
+Previous score 2 / 3 pointsRegrade score 3 / 3 points
+Multiple answer
+k-NN Properties
+
+Correct answer:
+
+C. Boundaries are not always linear
+
+Correct answer:
+
+D. Can approximate any decision boundary with enough data
+
+Correct answer:
+
+A. Low training cost but high inference cost
+
+Correct answer:
+
+B. Sensitive to irrelevant features
+
+Results for question 14.
+14
+3 / 3 points
+Multiple answer
+Effect of Feature Scaling Without Normalization. When features have different numeric ranges:
+
+Correct answer:
+
+A. Large-range features dominate distances
+
+
+Answer,
+D. L2 regularization automatically compensates
+
+Correct answer:
+
+C. SVM margins may distort
+
+Correct answer:
+
+B. k-NN predictions may be biased
